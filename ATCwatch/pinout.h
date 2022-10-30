@@ -12,12 +12,12 @@
 #ifdef P8WATCH
 
 //display
-#define LCD_SCK      2
-#define LCD_SDI      3
-#define LCD_CS       25
-#define LCD_RESET    26
-#define LCD_RS       18
-#define LCD_DET      9
+#define LCD_SCK      45
+#define LCD_SDI      44
+#define LCD_CS       3
+#define LCD_RESET    2
+#define LCD_RS       47
+#define LCD_DET      999 backlight is d12?
 
 //Flash Chip
 #define SPI_SCK      2
